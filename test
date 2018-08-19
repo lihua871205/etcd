@@ -7,7 +7,7 @@
 #
 # Run specified test pass
 #
-# $ PASSES=unit ./test
+# $ PASSES=unit ./test11
 # $ PASSES=integration ./test
 #
 #
