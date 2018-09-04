@@ -23,7 +23,7 @@ jobs:
     # GOROOT is not set by default
     GOROOT: ""
     PATH: "/usr/local/go/bin:/usr/local/go_workspace/bin:~/.go_workspace/bin:${PATH}"
-    GOPATH: "${HOME}/.go_workspace:/usr/local/go_workspace:${HOME}/.go_project"
+    GOPATH: "${HOME}/.go:/usr/local/go:${HOME}/.go_project"
     steps:
       - checkout
 
